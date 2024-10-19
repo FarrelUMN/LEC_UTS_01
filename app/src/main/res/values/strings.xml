@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LEC_UTS_01</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">NotePad+M</string>
+    <string name="Setting">Setting</string>
+    <string name="Folder">Folder</string>
+    <string name="option">Option</string>
+</resources>

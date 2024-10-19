@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.NavigationDrawer.AppBarOverlay"
+        tools:ignore="ExtraText">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightgrey"
+            app:popupTheme="@style/Theme.NavigationDrawer.PopupOverlay">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="35dp"
+                android:layout_height="55dp"
+                android:paddingTop="8dp"
+                android:layout_gravity="left"
+                app:srcCompat="@drawable/list" />
+
+            <TextView
+                android:layout_gravity="center"
+                style="@style/text_navbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title" />
+
+            <ImageView
+                android:layout_gravity="right"
+                android:id="@+id/accunt_bar"
+                android:layout_width="43dp"
+                android:layout_height="55dp"
+                android:paddingTop="8dp"
+                android:paddingRight="8dp"
+                app:srcCompat="@drawable/account" />
+        </androidx.appcompat.widget.Toolbar>
+        >
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

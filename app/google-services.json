@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1060061034918",
+    "project_id": "lec-final-project",
+    "storage_bucket": "lec-final-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060061034918:android:9fb0444b9f079b9e0f3767",
+        "android_client_info": {
+          "package_name": "com.example.lec_uts_01"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV9eVHESjK2_8cOzrEMYvus8bgXuO24pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
