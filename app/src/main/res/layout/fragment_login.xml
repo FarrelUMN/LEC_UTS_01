@@ -117,12 +117,12 @@
         android:layout_marginTop="20dp"/>
 
     <Button
-        android:id="@+id/cancelButton"
+        android:id="@+id/registerButton"
         android:layout_width="110dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/darklavender"
-        android:text="Cancel"
+        android:text="Signup"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@id/signupcard"

@@ -46,6 +46,11 @@
                 android:paddingRight="8dp"
                 app:srcCompat="@drawable/account" />
         </androidx.appcompat.widget.Toolbar>
-        >
+        <include
+            android:id="@+id/include"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/filler_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
     </com.google.android.material.appbar.AppBarLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
