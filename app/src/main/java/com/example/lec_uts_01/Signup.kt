@@ -47,7 +47,7 @@ class Signup : Fragment() {
             val email = emailInput.text.toString().trim()
             val username = usernameInput.text.toString().trim()
             val password = passwordInput.text.toString().trim()
-            if (email.isEmpty() or username.isEmpty() || password.isEmpty()) {
+            if (email.isEmpty() || username.isEmpty() || password.isEmpty()) {
                 Toast.makeText(
                     requireContext(), "Email ,Username and Password are required",
                     Toast.LENGTH_SHORT
