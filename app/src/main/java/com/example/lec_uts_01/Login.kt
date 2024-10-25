@@ -36,7 +36,7 @@ class Login : Fragment() {
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (activity as MainActivity)
+        (activity as MainActivity).hideAppBarLayout()
         val registerButton = view.findViewById<Button>(R.id.registerButton)
         val emailInput = view.findViewById<TextInputEditText>(R.id.email_input_field)
         val passwordInput =
