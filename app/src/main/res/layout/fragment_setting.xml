@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Setting">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        style="@style/text_setting_top"
+        android:id="@+id/text_setting_general"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginstart="10dp"
+        android:paddingTop="18dp"
+        android:text="General"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/fontchange_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Font Setting"
+        android:drawableRight="@drawable/font_setting"
+        android:backgroundTint="@color/lightgrey"
+        style="@style/text_settings"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/text_setting_general"
+        />
+    <Button
+        android:id="@+id/audio_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Audio Setting"
+        android:drawableRight="@drawable/audio_setting"
+        android:backgroundTint="@color/lightgrey"
+        style="@style/text_settings"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/fontchange_setting"
+        />
+    <Button
+        android:id="@+id/image_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Setting"
+        android:drawableRight="@drawable/image_setting"
+        android:backgroundTint="@color/lightgrey"
+        style="@style/text_settings"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/audio_setting"
+        />
+
+    <TextView
+        android:id="@+id/text_setting_Folder"
+        style="@style/text_setting_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginstart="10dp"
+        android:paddingTop="18dp"
+        android:text="Folder"
+        app:layout_constraintTop_toBottomOf="@id/image_setting"
+        tools:layout_editor_absoluteX="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cloud_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync To Cloud"
+        android:drawableRight="@drawable/cloud"
+        android:backgroundTint="@color/lightgrey"
+        style="@style/text_settings"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/text_setting_Folder"
+        />
+    <Button
+        android:id="@+id/folder_location_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Folder Location"
+        android:drawableRight="@drawable/folder_setting"
+        android:backgroundTint="@color/lightgrey"
+        style="@style/text_settings"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@id/cloud_setting"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
